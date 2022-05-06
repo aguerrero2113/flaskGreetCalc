@@ -8,11 +8,11 @@ def welcome():
 
 # /welcome/home
 @app.route('/welcome/home')
-def welcome():
+def welcome_home():
     return "welcome home"
 # Returns “welcome home”
 # /welcome/back
 @app.route('/welcome/back')
-def welcome():
+def welcome_back():
     return "welcome back"
 # Return “welcome back”
